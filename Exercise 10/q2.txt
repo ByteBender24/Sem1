@@ -1,0 +1,5 @@
+def assignment_analyser():
+Hi
+Hi
+Hi
+Hi

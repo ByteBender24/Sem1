@@ -1,0 +1,22 @@
+def assignment_analyser():
+    f1 = open('SSN exercises\Exercise 10\q2.txt','r')
+    lines = f1.readlines()
+    print (lines)
+    print (len(lines))
+
+#Hi
+#hello
+
+    words = []
+    for line in lines:
+        for word in line.split():
+            words.append(word)
+    print (words)
+    print(len(words))
+
+    characters = 0
+    for i in words:
+        characters = characters + len(i)
+    print (characters)
+
+assignment_analyser()
